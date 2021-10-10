@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TepePortal.DataLayer\TepePortal.DataLayer.csproj" />
+    <ProjectReference Include="..\TepePortal.EntityLayer\TepePortal.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
